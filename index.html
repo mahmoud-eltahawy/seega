@@ -1,32 +1,8 @@
-<!doctype html>
-<html>
-
-<head>
-  <meta charset="utf-8" />
-  <title>seega</title>
-  <link rel="stylesheet" href="/seega/tailwind-6bd4f8a418ac36ef.css"
-    integrity="sha384&#x2D;Mt&#x2F;jgRTOaCGvZCsGJAvymyl0mxatYapz&#x2F;p40Z4VFtpR7&#x2F;OGMpz3xsqS2iCbHz3Zp" />
+<!doctype html><meta charset=utf-8><meta content="egyption seega game" name=description><meta content="seega, سيجا, لعبة سيجا, seega game" name=keywords><meta content="width=device-width,initial-scale=1.0" name=viewport><meta content="Mahmoud Eltahawy" name=author><title>seega</title><link href=/tailwind-12bbb49ca544dd22.css integrity=sha384-4KneSQMypGJnDPWVl5+8OQe5ttTWI/cXSkA0/GKXh07MaECBYQN3XRmH4JZVHqXO rel=stylesheet><script nonce="7wcrxRaYbSxUW2FjoalkNQ==" type=module>import init, * as bindings from '/seega-ui-db679fc857d668a7.js';
+const wasm = await init('/seega-ui-db679fc857d668a7_bg.wasm');
 
 
-  <script type="module" nonce="F8m/7Fthu8aPDQkY4YA0dQ==">
-    import init, * as bindings from '/seega/seega-ui-f617152e56b338f.js';
-    const wasm = await init('/seega/seega-ui-f617152e56b338f_bg.wasm');
+window.wasmBindings = bindings;
 
 
-    window.wasmBindings = bindings;
-
-
-    dispatchEvent(new CustomEvent("TrunkApplicationStarted", {detail: {wasm}}));
-
-  </script>
-
-  <link rel="modulepreload" href="/seega/seega-ui-f617152e56b338f.js" crossorigin=anonymous
-    integrity="sha384-NJTAbgsBhGtuaZhBdApj+Ft7PEg/8KdwmquyF/JFzAPhzQHVKP85SXv7bhJzdiuI">
-  <link rel="preload" href="/seega/seega-ui-f617152e56b338f_bg.wasm" crossorigin=anonymous
-    integrity="sha384-xF3vTGxbrbfasQnDrv7NxXSv3oTtVNSPD9HQb813Ff7t0jyAFwhtI3GkleDNv8bb" as="fetch"
-    type="application/wasm">
-</head>
-
-<body></body>
-
-</html>
+dispatchEvent(new CustomEvent("TrunkApplicationStarted", {detail: {wasm}}));</script><link crossorigin href=/seega-ui-db679fc857d668a7.js integrity=sha384-FSml8uammr30BMp5WhwEoSKe1+VaTrgP2m6t5sICk/grJs3fswLnmoP3syqngoef rel=modulepreload><link as=fetch crossorigin href=/seega-ui-db679fc857d668a7_bg.wasm integrity=sha384-i3mac+EoN6M8z7RawHlC+a6VGtaySRDzlQh5CpnaBlGjpFK1cXiNOBpKCgFEUoV4 rel=preload type=application/wasm></head><body></body></html>
